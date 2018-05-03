@@ -133,10 +133,10 @@ namespace ToDoList.Models
         }
     }
 
-    public static void ClearAll()
-    {
-        _instances.Clear();
-    }
+    // public static void ClearAll()
+    // {
+    //     _instances.Clear();
+    // }
 
     public static Item Find(int id)
     {
