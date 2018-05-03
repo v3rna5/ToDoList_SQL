@@ -102,10 +102,10 @@ namespace ToDoList.Models
         {
           int itemId = rdr.GetInt32(0);
           string itemDescription = rdr.GetString(1);
-          string itemDueDate = rdr.GetString(2);
+          //string itemDueDate = rdr.GetString(2);
           Item newItem = new Item(itemDescription);
           newItem.SetId(itemId);
-          newItem.SetDate(itemDueDate);
+          //newItem.SetDate(itemDueDate);
           allItems.Add(newItem);
         }
         conn.Close();
